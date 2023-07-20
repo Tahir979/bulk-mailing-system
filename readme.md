@@ -12,3 +12,8 @@
 | ---- | ------- |
 | `MetroModernUI`| [![Nuget](https://img.shields.io/nuget/v/MetroModernUI.svg)](https://www.nuget.org/packages/MetroModernUI/) |
 | `Microsoft.Office.Interop.Excel` | [![Nuget](https://img.shields.io/nuget/v/Microsoft.Office.Interop.Excel.svg)](https://www.nuget.org/packages/Microsoft.Office.Interop.Excel) |
+
+## ScreenShot
+
+![main](/bulk%20mailing/screenshot/main.png)
+![sendingmail](/bulk%20mailing/screenshot/sendingmail.png)
