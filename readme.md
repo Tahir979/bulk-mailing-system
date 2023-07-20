@@ -17,3 +17,4 @@
 
 ![main](/bulk%20mailing/screenshot/main.png)
 ![sendingmail](/bulk%20mailing/screenshot/sendingmail.png)
+dsfgsdfgfsd
