@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Bulk_Mailing" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="mail_yeni" Type="System.String" Scope="User">
+      <Value Profile="(Default)">huptsecim@gmail.com</Value>
+    </Setting>
+    <Setting Name="sifre_yeni" Type="System.String" Scope="User">
+      <Value Profile="(Default)">qzkambimklomrlvf</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,21 @@
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\bin\Debug\Bulk Mailing.exe.config
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\bin\Debug\Bulk Mailing.exe
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\bin\Debug\Bulk Mailing.pdb
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\bin\Debug\en-US\Bulk Mailing.resources.dll
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\bin\Debug\MetroFramework.Design.dll
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\bin\Debug\MetroFramework.dll
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk Mailing.csproj.AssemblyReference.cache
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk_Mailing.changingaddress.resources
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk_Mailing.loading.resources
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk_Mailing.mail.resources
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk_Mailing.Localization.resources
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk_Mailing.programinfo.resources
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk_Mailing.Properties.Resources.resources
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk_Mailing.Localization.en-US.resources
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk Mailing.csproj.GenerateResource.cache
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk Mailing.csproj.CoreCompileInputs.cache
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\en-US\Bulk Mailing.resources.dll
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk Mailing.csproj.CopyComplete
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk Mailing.exe
+C:\Users\wasd0\Desktop\Bulk Mailing\Bulk Mailing\obj\Debug\Bulk Mailing.pdb

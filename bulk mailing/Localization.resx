@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addveri" xml:space="preserve">
+    <value>insert into veri(isim,mail) values (@isim,@mail)</value>
+  </data>
+  <data name="btn_addfolder" xml:space="preserve">
+    <value>Dosya / Dosyalar Ekle</value>
+  </data>
+  <data name="btn_getmaillist" xml:space="preserve">
+    <value>Kişilerin Veri Excel'ini Seç</value>
+  </data>
+  <data name="btn_sendmail" xml:space="preserve">
+    <value>Kişilere Mail Göndermeyi Başlat</value>
+  </data>
+  <data name="changingaddress_btn_acceptnewaddress" xml:space="preserve">
+    <value>Yeni Adresi Onaylıyorum</value>
+  </data>
+  <data name="changingaddress_btn_sendingcode" xml:space="preserve">
+    <value>Adreste Düzenleme Yapabilmek için Doğrulama Kodu Gönder</value>
+  </data>
+  <data name="changingaddress_btn_verifycode" xml:space="preserve">
+    <value>Kodu Onaylıyorum</value>
+  </data>
+  <data name="changingaddress_lbl_title" xml:space="preserve">
+    <value>Mevcut Adres</value>
+  </data>
+  <data name="changingaddress_lbl_titleaddress" xml:space="preserve">
+    <value>Mail Adresi:</value>
+  </data>
+  <data name="changingaddress_lbl_titlecode" xml:space="preserve">
+    <value>Kod:</value>
+  </data>
+  <data name="couldntfindmailaddress" xml:space="preserve">
+    <value>Hatalı mail adresi bulunamadı</value>
+  </data>
+  <data name="currentcondition" xml:space="preserve">
+    <value>Yüklü bir dosya bulunmamaktadır</value>
+  </data>
+  <data name="currentcondition2" xml:space="preserve">
+    <value> adet dosya gönderilmek üzere ek kısmına eklenmiştir.</value>
+  </data>
+  <data name="deletemail" xml:space="preserve">
+    <value>delete from veri where mail=@mail</value>
+  </data>
+  <data name="deleteveri" xml:space="preserve">
+    <value>delete from veri</value>
+  </data>
+  <data name="en" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="errormail" xml:space="preserve">
+    <value>Email gönderme işlemi başlatılmadı.</value>
+  </data>
+  <data name="errorprocess" xml:space="preserve">
+    <value>Başlatılmayan İşlem</value>
+  </data>
+  <data name="excelfilter" xml:space="preserve">
+    <value>Excel Dosyası |*.xlsx| Excel Dosyası|*.xls</value>
+  </data>
+  <data name="exceltitle" xml:space="preserve">
+    <value>Veri Excel'ini seçiniz...</value>
+  </data>
+  <data name="figure" xml:space="preserve">
+    <value>Şekil - 1</value>
+  </data>
+  <data name="headeremail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="headernameandsurname" xml:space="preserve">
+    <value>İsim ve Soyisim</value>
+  </data>
+  <data name="hideerrorlist" xml:space="preserve">
+    <value>Hatalı Mail Adreslerini Gizle</value>
+  </data>
+  <data name="hupt_title" xml:space="preserve">
+    <value>Hacettepe Üniversitesi Psikoloji Topluluğu (HÜPT)</value>
+  </data>
+  <data name="hupt_title3" xml:space="preserve">
+    <value>Merhaba Sevgili </value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>Bilgilendirme</value>
+  </data>
+  <data name="lblinfowithload" xml:space="preserve">
+    <value>Tüm Mailler Başarı Bir Şekilde Gönderildi :))</value>
+  </data>
+  <data name="lblprograminfo" xml:space="preserve">
+    <value>* Bu program Hacettepe Üniversitesi Psikoloji Topluluğu'nun toplu mail işlemlerini düzenlemek amacıyla oluşturulmuştur.
+ 
+* Katılımcıları içeren excel dosyanızı programa yüklemeden önce ilgili excel dosyanıza girerek excel dosyanızın "Şekil - 1"deki gibi olmasını sağlamalısınız. İsimler A sütununda Mailler B sütununda olmalı ve geri kalan sütunlarda herhangi bir veri olmamalıdır. Program, A ve B sütunlarından kişilerin bilgilerini alacak şekilde tasarlanmıştır.
+
+* Mail Gönderimi: Veri girişini tamamladıktan sonra mail taslağınızı oluşturuyorsunuz ve "Kişilere Mail Göndermeyi Başlat" butonuna basarak mail gönderme işlemini başlatmış olursunuz. Kafanıza takılan başka bir durum olursa: Tahir Tekatlı (muhammettahirtekatli@gmail.com)
+
+* Neden "20 MB" dosya sınırı var? Aslında sınır "25 MB" olarak söyleniyor Google tarafından ancak bunun denemesi yapıldığı zaman maksimum 20 MB yollanabiliyor ve daha fazlasında dosya boyutu hatası alınıyor. Bu yüzden dosya yükleme sınırı 20 MB'a çekildi.</value>
+  </data>
+  <data name="lbltotalfile" xml:space="preserve">
+    <value>Mevcut Dosyaların Toplam Boyutu:</value>
+  </data>
+  <data name="lbltotalpeople" xml:space="preserve">
+    <value>Mail Gönderilecek Toplam Kişi Sayısı:</value>
+  </data>
+  <data name="lblwarningaboutsize" xml:space="preserve">
+    <value>**Dosya boyut sınırı olarak "20 MB" belirlenmiştir, 20 MB'ı geçmediği sürece birden fazla dosya eklenebilir.**</value>
+  </data>
+  <data name="lbl_currentfolder" xml:space="preserve">
+    <value>Ekteki Dosya / Dosyalar</value>
+  </data>
+  <data name="lbl_editingaddress" xml:space="preserve">
+    <value>Kod Gönderen Mail Adresini Düzenlemek için Tıklayınız</value>
+  </data>
+  <data name="lbl_errormail" xml:space="preserve">
+    <value>Hatalı Mail Adresleri</value>
+  </data>
+  <data name="lbl_errormailshow" xml:space="preserve">
+    <value>**Hatalı olan mail adresleri otomatik olarak listeden kaldırılacaktır.**</value>
+  </data>
+  <data name="lbl_programinfo" xml:space="preserve">
+    <value>Program Hakkında Detaylı Bilgi Almak için Tıklayınız</value>
+  </data>
+  <data name="lbl_sendcodeinfo" xml:space="preserve">
+    <value>Mailler Gönderiliyor... Lütfen Programı Kapatmayınız...</value>
+  </data>
+  <data name="lbl_showerrorlist" xml:space="preserve">
+    <value>Hatalı Mail Adreslerini Göster</value>
+  </data>
+  <data name="lst_errorlist1" xml:space="preserve">
+    <value>Hatalı mail adresi bulunamadı</value>
+  </data>
+  <data name="lst_errorlist2" xml:space="preserve">
+    <value>1 adet hatalı mail adresi çıkarıldı</value>
+  </data>
+  <data name="lst_errorlist3" xml:space="preserve">
+    <value> adet hatalı mail adresleri çıkarıldı</value>
+  </data>
+  <data name="mail" xml:space="preserve">
+    <value>mail</value>
+  </data>
+  <data name="mail_" xml:space="preserve">
+    <value>@mail</value>
+  </data>
+  <data name="mbbulkmail" xml:space="preserve">
+    <value>Katılımcılara toplu bir şekilde e-mail göndermek istediğinize emin misiniz?</value>
+  </data>
+  <data name="mbcatchmessage" xml:space="preserve">
+    <value>"Hata:\n\n" + ex.ToString() + "\n\nAlternatif Öneriler\n\n1. Yüklemeye çalıştığınız dosyaları .rar haline getirip öyle yüklemeyi deneyebilirsiniz. \n\n2. Google, maillerde gönderilebilecek dosya boyutunu azaltmış olabilir. Daha az boyutlu bir biçimde dosyalarınızı yeniden yükleyebilirsiniz."</value>
+  </data>
+  <data name="mbcontroltitle" xml:space="preserve">
+    <value>Mail Taslağı Kontrolü</value>
+  </data>
+  <data name="mberrornodataentry" xml:space="preserve">
+    <value>Herhangi bir veri girişi bulunamadı</value>
+  </data>
+  <data name="mberroropenexcel" xml:space="preserve">
+    <value>Yüklemeye çalıştığınız excel dosyasını lütfen kapatınız. Açık olan excel dosyanızı kapattıktan sonra programa veri girişini yapmayı lütfen tekrar deneyiniz. \n\nEk Bilgi: Hem herhangi bir programda hem de bilgisayarda eş zamanlı olarak aynı excel dosyası çalıştırılamaz.</value>
+  </data>
+  <data name="mberrorsameexcelfile" xml:space="preserve">
+    <value>Lütfen daha önceden eklemiş olduğunuz dosyaları tekrardan eklemeyiniz. Aynı dosyayı birden fazla kez ekleme girişiminiz program tarafından silinmiştir. Aynısını tekrardan eklemeye çalıştığınız mevcut dosyanın ismi: </value>
+  </data>
+  <data name="mberrorsize" xml:space="preserve">
+    <value>Dosya Boyutu Hatası</value>
+  </data>
+  <data name="mberrorwrongexcelfile" xml:space="preserve">
+    <value>Yüklemiş olduğunuz excelde herhangi bir veri bulunamadı ya da veriler içinden geçerli olan herhangi bir mail adresi bulunamadı. Lütfen excel dosyanızın içinde verilerin olduğundan ve var olan mail adreslerinin doğru olduğundan emin olunuz ve ardından tekrar deneyiniz.</value>
+  </data>
+  <data name="mbfilesizeerror" xml:space="preserve">
+    <value>Toplam dosya boyutu 20 MB'ı aşıyor. Lütfen seçtiğiniz dosyaların toplam 20 MB'ı aşmadığından emin olunuz.</value>
+  </data>
+  <data name="mbfill" xml:space="preserve">
+    <value>Lütfen tüm kutucukları doldurunuz! Doldurmanız gereken kutucukları kutucukların üstündeki yazıdan görebilirsiniz.</value>
+  </data>
+  <data name="mbnotstart" xml:space="preserve">
+    <value>e-mail gönderme işlemi başlatılmadı.</value>
+  </data>
+  <data name="mb_error" xml:space="preserve">
+    <value>Yüklemiş olduğunuz excelde herhangi bir veri bulunamadı ya da veriler içinden geçerli olan herhangi bir doğrulama kodu bulunamadı. Lütfen excel dosyanızın içinde verilerin olduğundan ve var olan doğrulama kodlarının doğru olduğundan emin olunuz ve ardından tekrar deneyiniz.</value>
+  </data>
+  <data name="mb_hata" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="messagecancel" xml:space="preserve">
+    <value>Herhangi bir işlem yapılmadı.</value>
+  </data>
+  <data name="messageconfirmcode" xml:space="preserve">
+    <value>Doğrulama Kodu Onayı</value>
+  </data>
+  <data name="messageerrorcode" xml:space="preserve">
+    <value>Hatalı doğrulama kodu girildi.</value>
+  </data>
+  <data name="messagemailto" xml:space="preserve">
+    <value>Adres Düzenleme</value>
+  </data>
+  <data name="messagesendingcode" xml:space="preserve">
+    <value>Doğrulama Kodu Gönderimi</value>
+  </data>
+  <data name="messagesuccesspart1" xml:space="preserve">
+    <value>Değişiklik başarıyla kaydedildi. Doğrulama kodları bundan sonra </value>
+  </data>
+  <data name="messagesuccesspart2" xml:space="preserve">
+    <value> adresinden gönderilecektir.</value>
+  </data>
+  <data name="messagesuccesssending" xml:space="preserve">
+    <value>İşlem Başarılı. Lütfen size gönderilen doğrulama kodunu aktif olmuş olan kutucuğa yazınız ve onaylayınız.</value>
+  </data>
+  <data name="messagesuccessverify" xml:space="preserve">
+    <value>İşlem Başarılı. Hesapta düzenleme işlemlerinizi yapmaya başlayabilirsiniz.</value>
+  </data>
+  <data name="messsagestart" xml:space="preserve">
+    <value>İşlemi Başlatmak İstediğinize Emin Misiniz?</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>isim</value>
+  </data>
+  <data name="name_" xml:space="preserve">
+    <value>@isim</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="oledbconveri" xml:space="preserve">
+    <value>Provider=Microsoft.ACE.OLEDB.12.0;Data Source=veri.accdb;Persist Security Info=True</value>
+  </data>
+  <data name="selectveri" xml:space="preserve">
+    <value>Select * from veri</value>
+  </data>
+  <data name="showerrorlist" xml:space="preserve">
+    <value>Hatalı Mail Adreslerini Göster</value>
+  </data>
+  <data name="smtp" xml:space="preserve">
+    <value>smtp.gmail.com</value>
+  </data>
+  <data name="symbol" xml:space="preserve">
+    <value>-----------------------</value>
+  </data>
+  <data name="symbol2" xml:space="preserve">
+    <value>  (...), </value>
+  </data>
+  <data name="tenpercentage" xml:space="preserve">
+    <value>%10</value>
+  </data>
+  <data name="tr" xml:space="preserve">
+    <value>tr-TR</value>
+  </data>
+  <data name="turkce" xml:space="preserve">
+    <value>TR</value>
+  </data>
+  <data name="txtappeal" xml:space="preserve">
+    <value>Hitap Şeklinizi Giriniz... (Ör: Merhaba Sevgili)</value>
+  </data>
+  <data name="txtcontent" xml:space="preserve">
+    <value>Mail İçeriğini Giriniz...</value>
+  </data>
+  <data name="txttitle" xml:space="preserve">
+    <value>Mail Başlığını Giriniz...</value>
+  </data>
+  <data name="txt_attachedfile" xml:space="preserve">
+    <value>Ekteki Dosyalar: </value>
+  </data>
+  <data name="txt_filecontrol" xml:space="preserve">
+    <value>Şu an için yüklü bir dosya bulunmamaktadır.</value>
+  </data>
+  <data name="txt_font_appeal" xml:space="preserve">
+    <value>Hitap: </value>
+  </data>
+  <data name="txt_font_content" xml:space="preserve">
+    <value>Mail İçeriği: </value>
+  </data>
+  <data name="txt_font_title" xml:space="preserve">
+    <value>Mail Başlığı: </value>
+  </data>
+  <data name="_maintext" xml:space="preserve">
+    <value>Toplu Mail Atma Programı</value>
+  </data>
+  <data name="_programmeinfo" xml:space="preserve">
+    <value>Program Hakkında</value>
+  </data>
+</root>
